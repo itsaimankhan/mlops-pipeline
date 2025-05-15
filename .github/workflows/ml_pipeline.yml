@@ -28,7 +28,7 @@ jobs:
           python train_model.py
 
       - name: Upload Model Artifact
-        uses: actions/upload-artifact@v3.2.1
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: trained-model
           path: model.joblib
